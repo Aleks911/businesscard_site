@@ -1,0 +1,70 @@
+body{
+	font-family: lato;
+	}
+
+#tresc{
+	margin-left:350px;
+	margin-right: 20px;
+	padding-left:10px;
+	border-left:1px solid black;
+	}
+
+h1{
+		text-align:center;
+		font-size:40px;
+	}
+	
+#menu{
+		position:fixed;
+		top:10px;
+		width: 300px;
+	}
+
+#menu ul li{
+			list-style:none;
+			border-bottom: 1px solid #ddd
+			}
+
+a{
+	text-decoration:none;
+	border-bottom: 1px dotted gray;
+	color: inherit;	
+	}
+
+a, #menu a{
+		text-decoration:none;
+		}
+		
+a:hover{
+	color:white;
+	background-color:#ccc
+	}
+	
+#stopka {
+	border-top: 1px;
+	solid;
+	black;
+	font-size: 0.75em;
+	text-align:center;
+	clear:both;
+	}
+	
+.ilustracja{
+		float:right;
+		padding:10px;
+		margin:10px;
+		border: 1px solid gray;
+		}
+		
+.ilustracja p{
+		text-align:center;
+		}
+		
+.wiersz{
+		font-style: italic;
+		font-size:1.5em;
+		font-family: "times new roman";
+		margin-left: 80px;
+		color:#483D8B;
+		}
+	
