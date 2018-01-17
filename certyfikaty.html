@@ -10,25 +10,25 @@
 	<link rel="stylesheet" href="css/fontello.css" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lato" rel="stylesheet">
 	
-	
+	<script src="slide.js"></script>
 	
 </head>
 
 
-<body>
+<body onload="showDivs();">
 
 <div id="container">
 
 	
-<div id="slider">
-<figure>
-<img src="img/1.jpg" alt>
-<img src="img/2.jpg" alt>
-<img src="img/3.jpg" alt>
-<img src="img/4.jpg" alt>
-<img src="img/1.jpg" alt>
-</figure>
-</div>
+
+<img class="mySlides" src="img/1.jpg">
+<img class="mySlides" src="img/2.jpg">
+<img class="mySlides" src="img/3.jpg">
+<img class="mySlides" src="img/4.jpg">
+<img class="mySlides" src="img/5.jpg">
+
+<button class="prev" onclick="plusDivs(-1)">&#10094;</button>
+<button class="next" onclick="plusDivs(+1)">&#10095;</button>
 	
 	
 	
