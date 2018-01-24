@@ -1,5 +1,6 @@
 function odliczanie()
 	{
+		
 		var dzisiaj = new Date();
 		
 		var godzina = dzisiaj.getHours();
